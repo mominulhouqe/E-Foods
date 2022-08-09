@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container{
+    background-color: rgb(71, 69, 69);
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+}
+.navbar-name{
+    display: flex;
+    float: left;
+}
+
+.navbar ul{
+    font-size: 18px
+    
+}
+.navbar ul a{
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.navbar ul a:hover{
+    color: orange;
+}
+
+
+.card{
+    position: absolute;
+    display: inline;
+    float: left;
+   
+}
+.container h3{
+    font-size: 40px;
+}
+
+.col-8 h4{
+    margin: 5px;
+    
+}
+.col-8 img{
+    border-radius: 5px;
+
+}
+.my-pic{
+    border-radius: 50%;
+}
+.row h2{
+    text-align: right;
+    margin-left: right;
+}
+.col-3 img{
+    width: 100%;
+    object-fit: cover;
+ 
+}
+.col-3 h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid rgb(55, 106, 247);
+    width: 110px;
+    background-color: rgb(55, 106, 246);
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+.col-8 h6{
+    border: 0.5px solid rgb(43, 29, 231);
+    width: 100px;
+    text-align: center;
+    background-color: rgb(55, 106, 246);
+    padding: 5px;
+}
+.col-3 a{
+    font-size: 30px;
+   display: inline-flex;
+   float: right;
+   background-color: #fff;
+   padding: 10px;
+   margin: 5px;
+   text-decoration: none;
+   border-radius: 5px;
+}
+.text-white{
+    display: flex;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.col-3 a:hover{
+    color: rgb(240, 69, 69);
+}
+.social-icon{
+    text-align: center;
+    padding: 10px;
+    position: relative;
+
+}
+.social-icon a{
+    display: flex;
+    float: left;
+  
+    text-decoration: none;
+}
+.social-icons p{
+    font-size: 10px;
+}
+.about-me{
+    font-size: 15px;
+}
+.payment-name{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.payment-gateway img{
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+
+   
+}
+.payment-gateway img:hover{
+    background-color: rgb(222, 23, 83);
+}
+button{
+    border-radius: 20px;
+}
+.navbar-name img{
+    border-radius: 50%;
+}
+.products h1{
+    font-weight: bolder;
+    text-align: center;
+}
+.products h1:hover{
+   
+    color: orange;
+}
